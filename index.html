@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/scss.css">
+</head>
+
+<body>
+    <div class="tonghop">
+        <div class="tonghop__first">
+            <h1 class="tonghop__title">Xác nhận điều kiện vay vốn</h1>
+
+        </div>
+        <div class="tonghop__content">
+            <div class="tonghop__content__note">
+                <p>Thu nhập hàng tháng (VND)</p>
+                <input type="number" id="tien" placeholder="Nhập số tiền thu nhập hàng tháng" />
+            </div>
+            <div class="tonghop__content__note">
+                <p>Số tiền cần vay</p>
+                <input type="number" id="canvay" placeholder="Nhập số tiền bạn cần vay" />
+            </div>
+            <div class="tonghop__content__note">
+                <p>Lãi suất 1 năm (%)</p>
+                <input type="number" id="laisuat" placeholder="Nhập lãi suất" />
+            </div>
+            <div class="tonghop__content__note">
+                <p>Thời hạn vay (Tháng)</p>
+                <input type="number" id="thoihan" placeholder="Nhập thời hạn bạn cần vay" />
+            </div>
+            <div>
+                <button onclick="tinhDieukien()">Tính kết quả</button>
+            </div>
+            <div class="ketqua" id="ketqua">
+
+            </div>
+            <div class="ketqua1" id="ketqua1">
+
+            </div>
+            <div class="dieukien" id="dieukien">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+<script src="./js/js.js"></script>
+
+</html>

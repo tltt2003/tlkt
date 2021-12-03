@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tonghop {
+  font-size: 12px;
+}
+
+.tonghop__title {
+  text-align: center;
+}
+
+.tonghop__content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tonghop__content__note {
+  margin: 20px 0;
+}
+
+.tonghop__content__note p {
+  font-size: 20px;
+}
+
+.tonghop__content button {
+  border: 1px solid #0c7fe4;
+  border-radius: 3px;
+  height: 40px;
+  width: 80%;
+  background-color: #02c1f1;
+}
+
+input {
+  border-radius: 3px;
+  width: 80%;
+  height: 50px;
+  border: 1px solid #0c7fe4;
+  display: block;
+}
+/*# sourceMappingURL=scss.css.map */
